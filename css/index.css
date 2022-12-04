@@ -1,0 +1,400 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.wrap-1 {
+  height: 100vh;
+  background-image: url(../pictures/background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.wrap-1 * {
+  color: white;
+}
+
+.container {
+  padding: 0 50px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrap-top-right {
+  display: flex;
+  align-items: center;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.active {
+  transition: 350ms;
+}
+
+.active:hover {
+  color: #ffc700;
+}
+
+.wrap-top-right p {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.wrap-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 26px;
+}
+
+.wrap-center h1 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 117px;
+  margin-bottom: 43px;
+}
+
+/*К ЭКСКУРСИЯМ*/
+.grad-btn-1 {
+  height: 50px;
+  padding: 0 53px;
+}
+
+/*MUTUAL BUTTON*/
+.grad-btn {
+  background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  border-radius: 50px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  transition: 330ms;
+}
+
+.grad-btn:hover {
+  background-color: aqua;
+}
+
+.wrap-center button img {
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.service-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 89px 0px 38px 0px;
+}
+
+.service-top h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #0499dd;
+}
+
+.service-top a {
+  color: #282828;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.grid-service {
+  padding-bottom: 110px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 497px;
+  grid-gap: 20px;
+}
+
+.service-blocks {
+  border-radius: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: black;
+  transition: 340ms;
+}
+
+.service-blocks:hover {
+  background-size: 110%;
+}
+
+.s-1 {
+  background-image: url(../pictures/bridge.png);
+  background-position: center;
+  background-size: 105%;
+}
+
+.s-2 {
+  background-image: url(../pictures/./horse-1.png);
+  background-position: center;
+  background-size: 105%;
+}
+
+.s-3 {
+  background-image: url(../pictures/waterfall.png);
+  background-position: center;
+  background-size: 105%;
+}
+
+.top {
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.middle {
+  padding-top: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffc700;
+}
+
+.hour {
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.coins {
+  padding-left: 13px;
+  margin-top: 10px;
+}
+
+.money {
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.invintation {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* ПОДРОБНЕЕ*/
+.grad-btn-2 {
+  color: white;
+  height: 40px;
+  padding: 0 43px;
+}
+
+.grad-btn-2 a {
+  color: white;
+}
+
+.wrap-2 {
+  height: 100vh;
+  background-image: url(../pictures/background-2.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-wrap-2 {
+  width: 542px;
+  height: 476px;
+  padding-left: 85px;
+  padding-top: 61px;
+  background-color: #EDEDED;
+  border-radius: 10px;
+}
+
+.us {
+  font-weight: 700;
+  font-size: 24px;
+  color: #0499DD;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 14px;
+  color: #282828;
+  margin-top: 40px;
+  margin-right: 75px;
+}
+
+.ps {
+  margin-right: 75px;
+  margin-top: 20px;
+  margin-bottom: 105px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #282828;
+}
+
+.type {
+  color: #0499DD;
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 98px;
+
+}
+
+.tour-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px;
+  padding-top: 90px;
+}
+
+.tours {
+  display: flex;
+}
+
+.tour-right h1 {
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 20px;
+  color: #0499DD;
+}
+
+.tour-right p {
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.choose {
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.up-btn {
+  margin-top: 20px;
+}
+
+.up-btn a {
+  color: white;
+}
+
+.wrap-3 {
+  max-width: 100%;
+}
+
+.last-grid {
+  margin-top: 100px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 123px;
+  grid-column-gap: 16px;
+  grid-row-gap: 20px;
+}
+
+.bottom-pics {
+  border-radius: 6px;
+  transition: 340ms;
+}
+
+.bottom-pics:hover {
+  background-size: 105%;
+}
+
+.bottom-pics:nth-child(1) {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.bottom-pics:nth-child(2) {
+  grid-row: 1/5;
+}
+
+.bottom-pics:nth-child(3) {
+  grid-row: 1/3;
+}
+
+.bottom-pics:nth-child(4) {
+  grid-row: 1/3;
+}
+
+.bottom-pics:nth-child(5) {
+  grid-row: 3/5;
+}
+
+.bottom-pics:nth-child(7) {
+  grid-column: 4/6;
+  grid-row: 3/5;
+}
+
+.pic-1 {
+  background-image: url(../pictures/mountains-top.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+.pic-2 {
+  background-image: url(../pictures/waterfall-2.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+.pic-3 {
+  background-image: url(../pictures/scooter.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+.pic-4 {
+  background-image: url(../pictures/castle.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+.pic-5 {
+  background-image: url(../pictures/horse-2.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+.pic-6 {
+  background-image: url(../pictures/cave.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+.pic-7 {
+  background-image: url(../pictures/harbour.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+.pic-8 {
+  background-image: url(../pictures/town.png);
+  background-position: center;
+  background-size: 100%;
+}
